@@ -3623,15 +3623,3 @@
 		end
 	return top
 	end
-
-	local Window = create:Win("Crab Hub")
-	local Tap1 = Window:Taps("AutoFarm")
-	local Tap2 = Window:Taps("misc")
-	local Tap3 = Window:Taps("Credit")
-
-
-	local page1 = Tap1:newpage()
-	local page2 = Tap1:newpage()
-	local page3 = Tap2:newpage()
-	local page4 = Tap2:newpage()
-	local page5 = Tap3:newpage()
